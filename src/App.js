@@ -11,7 +11,7 @@ function App() {
 
   const toggleParagraphHandler = useCallback( () => {
     if (allowToggle) {
-      setShowParagraph(prevShowParagraph => !prevShowParagraph);
+      setShowParagraph(prevShowParagraph => !prevShowParagraph); // checks for sure the latest, latest, LATEST state change
     }
   }, [allowToggle]);
 
